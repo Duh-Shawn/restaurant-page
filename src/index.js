@@ -1,4 +1,5 @@
 import renderHomePage from "./homePage";
+import renderMenuPage from "./menuPage";
 
 renderHomePage();
 
@@ -20,9 +21,9 @@ const attachEventListeners = (() => {
     console.log(homeButton);
 
     const menuButton = document.getElementById("menu-button");
-
-    console.log(menuButton);
-    
-    menuButton.addEventListener('click', clearContent);
+    menuButton.addEventListener('click', () => {
+        clearContent();
+        renderMenuPage();
+    });
 
 })();
