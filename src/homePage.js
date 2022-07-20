@@ -1,5 +1,6 @@
 
-import Logo from './pizza.png'
+import fork from './images/fork.png'
+import knife from './images/knife.png'
 import './style.css';
 
 const renderHomePage = () => {
@@ -16,13 +17,17 @@ const renderHomePage = () => {
     headline.classList ="headline"
     wrapper.appendChild(headline);
 
-    const pizzaLogo = new Image();
-    pizzaLogo.src = Logo;
-    pizzaLogo.id = "pizza-logo"
+    const forkLogo = new Image();
+    forkLogo.src = fork;
+    forkLogo.id = "pizza-logo"
+    const knifeLogo = new Image();
+    knifeLogo.src = knife;
+    knifeLogo.id = "pizza-logo"
     const headlineHeading = document.createElement('h1');
-    headlineHeading.textContent = "D's Pizza Shop";
-    headline.appendChild(pizzaLogo);
+    headlineHeading.textContent = "D's Krazy Food";
+    headline.appendChild(forkLogo);
     headline.appendChild(headlineHeading);
+    headline.appendChild(knifeLogo);
 
     const info = document.createElement('div');
     info.classList = "info";

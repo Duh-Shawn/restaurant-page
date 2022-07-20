@@ -5,6 +5,7 @@ body{
 }
 
 nav{
+    margin-top: 10px;
     justify-self: center;
     align-self: center;
 }
@@ -17,11 +18,14 @@ nav{
 
 .wrapper{
     flex: 1;
-    border: solid;
+    /* border: solid; */
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    /* padding-top: 50px; */
+    padding-bottom: 50px;
+    gap: 50px;
 }
 
 .headline{
@@ -29,8 +33,6 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
     border: solid;
     width: 750px;
     border-radius: 25px;
@@ -47,13 +49,32 @@ nav{
     display: flex;
     flex-direction: column;
     flex: 1;
-    margin-bottom: 50px;
 }
 
 #pizza-logo{
     max-width: 50px;
     max-height: 50px;
-    
+}
+
+.item-picture{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.menu-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.item{
+    border: solid;
+    padding: 15px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-block{
