@@ -13,14 +13,14 @@ const renderMenuPage = () => {
     // main content of page to append to
     const content = document.getElementById('content'); 
 
-    //wrapper for js injected ata
-    const wrapper = document.createElement('div');
-    wrapper.classList = "wrapper";
-    content.appendChild(wrapper);
+    // //wrapper for js injected ata
+    // const wrapper = document.createElement('div');
+    // wrapper.classList = "wrapper";
+    // content.appendChild(wrapper);
 
     const headline = document.createElement('div');
     headline.classList ="headline"
-    wrapper.appendChild(headline);
+    content.appendChild(headline);
 
     const headlineHeading = document.createElement('h1');
     headlineHeading.textContent = "Menu";
@@ -28,7 +28,7 @@ const renderMenuPage = () => {
 
     const menuItems = document.createElement('div');
     menuItems.classList = "menu-items";
-    wrapper.appendChild(menuItems);
+    content.appendChild(menuItems);
 
 
     var text = [

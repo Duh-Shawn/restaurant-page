@@ -9,13 +9,13 @@ const renderHomePage = () => {
     const content = document.getElementById('content'); 
 
     //wrapper for js injected data
-    const wrapper = document.createElement('div');
-    wrapper.classList = "wrapper";
-    content.appendChild(wrapper);
+    // const wrapper = document.createElement('div');
+    // wrapper.classList = "wrapper";
+    // content.appendChild(wrapper);
 
     const headline = document.createElement('div');
     headline.classList ="headline"
-    wrapper.appendChild(headline);
+    content.appendChild(headline);
 
     const forkLogo = new Image();
     forkLogo.src = fork;
@@ -25,17 +25,19 @@ const renderHomePage = () => {
     knifeLogo.id = "pizza-logo"
     const headlineHeading = document.createElement('h1');
     headlineHeading.textContent = "D's Krazy Food";
+    headline.id = "home-headline";
     headline.appendChild(forkLogo);
     headline.appendChild(headlineHeading);
     headline.appendChild(knifeLogo);
 
     const info = document.createElement('div');
     info.classList = "info";
-    wrapper.appendChild(info);
+    content.appendChild(info);
 
     //about us section
     const aboutBlock = document.createElement('div');
     aboutBlock.classList ="home-block";
+    aboutBlock.id = "about-section"
     const aboutHeading = document.createElement('h2');
     const aboutText = document.createElement('p')
     aboutHeading.textContent = "About Us"
@@ -46,6 +48,7 @@ const renderHomePage = () => {
     //restaraunt hours section
     const hoursBlock = document.createElement('div');
     hoursBlock.classList ="home-block";
+    hoursBlock.id = "hours-section"
     const hoursHeading = document.createElement('h2');
     const hoursText = document.createElement('p');
     hoursHeading.textContent = "Hours"
@@ -56,6 +59,7 @@ const renderHomePage = () => {
     //locaton section
     const locationBlock = document.createElement('div');
     locationBlock.classList ="home-block";
+    locationBlock.id = "location-section";
     const locationHeading = document.createElement('h2');
     const locationText = document.createElement('p');
     locationHeading.textContent = "Location"
