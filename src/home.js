@@ -8,11 +8,6 @@ const renderHomePage = () => {
     //main content of page to append to
     const content = document.getElementById('content'); 
 
-    //wrapper for js injected data
-    // const wrapper = document.createElement('div');
-    // wrapper.classList = "wrapper";
-    // content.appendChild(wrapper);
-
     const headline = document.createElement('div');
     headline.classList ="headline"
     content.appendChild(headline);
@@ -70,8 +65,6 @@ const renderHomePage = () => {
     info.appendChild(aboutBlock);
     info.appendChild(hoursBlock);
     info.appendChild(locationBlock);
-
-    
 }
 
 export default renderHomePage;

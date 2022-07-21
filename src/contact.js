@@ -25,15 +25,9 @@ const employees = [
     },
 ]
 
-
 const renderContactPage = () => {
     // main content of page to append to
     const content = document.getElementById('content'); 
-
-    //wrapper for js injected ata
-    // const wrapper = document.createElement('div');
-    // wrapper.classList = "wrapper";
-    // content.appendChild(wrapper);
 
     const headline = document.createElement('div');
     headline.classList ="headline"
@@ -46,9 +40,6 @@ const renderContactPage = () => {
 
     const employeesBlock = document.createElement('div');
     employeesBlock.classList = "employees-block";
-    // const employeeHeading = document.createElement('h2');
-    // employeeHeading.textContent = "Employees";
-    // employeesBlock.appendChild(employeeHeading);
 
     employees.forEach( (employee) => {
         console.log(employee);
@@ -77,8 +68,6 @@ const renderContactPage = () => {
     });
 
     content.appendChild(employeesBlock);
-
-
 
     const contactBlock = document.createElement('div');
     contactBlock.classList = "contact-block";
