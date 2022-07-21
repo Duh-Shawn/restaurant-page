@@ -42,7 +42,6 @@ const renderContactPage = () => {
     employeesBlock.classList = "employees-block";
 
     employees.forEach( (employee) => {
-        console.log(employee);
         const employeeContainer = document.createElement('div')
         employeeContainer.classList = "employee";
 

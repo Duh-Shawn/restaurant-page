@@ -19,8 +19,6 @@ const attachEventListeners = (() => {
         renderHomePage();
     });
 
-    console.log(homeButton);
-
     const menuButton = document.getElementById("menu-button");
     menuButton.addEventListener('click', () => {
         clearContent();
