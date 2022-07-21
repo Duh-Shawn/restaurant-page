@@ -39,7 +39,7 @@ const renderHomePage = () => {
     const aboutHeading = document.createElement('h2');
     const aboutText = document.createElement('p')
     aboutHeading.textContent = "About Us"
-    aboutText.textContent = "Founded by a true foodie, we set across the globe to find the tastiest and most authentic recipes. We started in Northern Virginia and expanded as far as South Africa. To-date, we have over 30,000 restauraunts worldwide. No matter where you are located, we have the PIZZA for you!";
+    aboutText.textContent = "Founded by a true foodie, we set across the globe to find the tastiest and most authentic recipes. From Newport News to Northern Virginia, we have set out to find the most unique and cultural dishes to share. Whether you are new on your foodie journey, or a seasoned traveler, we have something for you!";
     aboutBlock.appendChild(aboutHeading);
     aboutBlock.appendChild(aboutText);
 
@@ -53,19 +53,19 @@ const renderHomePage = () => {
     hoursBlock.appendChild(hoursHeading);
     hoursBlock.appendChild(hoursText);
 
-    //contact us sections
-    const contactBlock = document.createElement('div');
-    contactBlock.classList ="home-block";
-    const contactHeading = document.createElement('h2');
-    const contactText = document.createElement('p');
-    contactHeading.textContent = "Contact Us"
-    contactText.innerHTML = "Locations worldwide. Please check your locale food registry! <br><br> Corporate phoneline: 1-800-DAMN-GOOD-PIZZA";
-    contactBlock.appendChild(contactHeading);
-    contactBlock.appendChild(contactText);
+    //locaton section
+    const locationBlock = document.createElement('div');
+    locationBlock.classList ="home-block";
+    const locationHeading = document.createElement('h2');
+    const locationText = document.createElement('p');
+    locationHeading.textContent = "Location"
+    locationText.innerHTML = "1000 Good Food Avenue, Arlington, Virginia";
+    locationBlock.appendChild(locationHeading);
+    locationBlock.appendChild(locationText);
 
     info.appendChild(aboutBlock);
     info.appendChild(hoursBlock);
-    info.appendChild(contactBlock);
+    info.appendChild(locationBlock);
 
     
 }

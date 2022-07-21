@@ -33,31 +33,31 @@ const renderMenuPage = () => {
 
     var text = [
         {
-            heading: "Delicious Item", imageSrc: steak, description: "Delicious food for you to eat!!!!" 
+            heading: "Steak", imageSrc: steak, description: "A steak, also sometimes called \"beef steak\", is a meat generally sliced across the muscle fibers, potentially including a bone. It is normally grilled, though it can also be pan-fried." 
         },
         {
-            heading: "Delicious Item", imageSrc: fish, description: "Delicious food for you to eat!!!!" 
+            heading: "Fish", imageSrc: fish, description: "Fish are aquatic, craniate, gill-bearing animals that lack limbs with digits."
         }, 
         {
-            heading: "Delicious Item", imageSrc: cake, description: "Delicious food for you to eat!!!!" 
+            heading: "Cake", imageSrc: cake, description: "Cake is a flour confection made from flour, sugar, and other ingredients, and is usually baked." 
         }, 
         {
-            heading: "Delicious Item", imageSrc: hotSkillet, description: "Delicious food for you to eat!!!!" 
+            heading: "Hot Skillet", imageSrc: hotSkillet, description: "One-skillet meals are the go-to when you cannot decide. Mix of meat, cheese, veggies, and rice." 
         },
         {
-            heading: "Delicious Item", imageSrc: friedRice, description: "Delicious food for you to eat!!!!" 
+            heading: "Fried Rice", imageSrc: friedRice, description: "Fried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat." 
         },
         {
-            heading: "Delicious Item", imageSrc: hotDog, description: "Delicious food for you to eat!!!!" 
+            heading: "Glizzy Dog", imageSrc: hotDog, description: "A hot dog is a food consisting of a grilled or steamed sausage served in the slit of a partially sliced bun. " 
         }, 
         {
-            heading: "Delicious Item", imageSrc: kebab, description: "Delicious food for you to eat!!!!" 
+            heading: "Gyro", imageSrc: kebab, description: "Gyros—in some regions, chiefly North America, anglicized as a gyro —is a food item of Greek origin made from meat cooked on a vertical rotisserie and served wrapped or stuffed in pita bread, along with ingredients such as tomato, onion, fried potatoes, and tzatziki." 
         }, 
         {
-            heading: "Delicious Item", imageSrc: ramen, description: "Delicious food for you to eat!!!!" 
+            heading: "Ramen", imageSrc: ramen, description: "Ramen is a Japanese noodle dish. It consists of Chinese-style alkaline wheat noodles served in a meat-based broth, often flavored with soy sauce or miso, and uses toppings such as sliced pork, nori, menma, and scallions." 
         },
         {
-            heading: "Delicious Item", imageSrc: pizza, description: "Delicious food for you to eat!!!!" 
+            heading: "'Za", imageSrc: pizza, description: "Pizza is a dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven." 
         },
     ];
 

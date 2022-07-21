@@ -1,5 +1,6 @@
-import renderHomePage from "./homePage";
-import renderMenuPage from "./menuPage";
+import renderHomePage from "./home";
+import renderMenuPage from "./menu";
+import renderContactPage from "./contact";
 
 renderHomePage();
 
@@ -24,6 +25,12 @@ const attachEventListeners = (() => {
     menuButton.addEventListener('click', () => {
         clearContent();
         renderMenuPage();
+    });
+
+    const contactButton = document.getElementById("contact-button");
+    contactButton.addEventListener('click', () => {
+        clearContent();
+        renderContactPage();
     });
 
 })();
